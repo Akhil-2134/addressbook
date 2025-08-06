@@ -1,4 +1,4 @@
-FROM ubuntu:22.02 AS build
+FROM ubuntu:22.04 AS build
 RUN apt-get update && apt-get install -y maven git default-jdk
 WORKDIR /app
 COPY . /app
