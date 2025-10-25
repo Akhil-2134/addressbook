@@ -1,0 +1,15 @@
+name: Helloworld
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  my-build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Print message 
+      run: echo " Hello world GA testing "
