@@ -2,7 +2,7 @@ name: Helloworld
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
   my-build:
